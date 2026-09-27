@@ -1,0 +1,13 @@
+id,nome,email,valor_compra,data_transacao
+1, Ana Silva ,ana.silva@email.com,150.50,2026-09-01
+2,Carlos Souza,carlos.souza_email_invalido,200.00,2026-09-02
+3,  ,maria.oliveira@email.com,abc,2026/09/03
+4,João Pedro,joao.pedro@email.com,99.90,04-09-2026
+5,Bruna Lima,bruna.lima@email.com,-50.00,2026-09-05
+6,MARIANA COSTA,mariana.costa@empresa.com.br,1250.00,2026-09-06
+7,Roberto Alves,roberto@,0,2026-09-07
+8,  Fernanda Lima  ,fernanda.lima@domain.org,450.75,2026/09/08
+9,Lucas Mendes,lucas.mendes@email.com,NULL,2026-09-09
+10, Juliana Paes ,juliana.paes@site.com,890.30,2026-09-10
+11,Tiago Ramos,tiago.ramos@email.com,320.00,31/02/2026
+12,Camila Rocha,camila.rocha@email.com,15.99,2026-09-12

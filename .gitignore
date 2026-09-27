@@ -1,0 +1,13 @@
+# Python environment and cache
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+
+# Output test files (optional: comment out if you want to push sample outputs)
+# data/clean_records.csv
+# data/error_report.csv
