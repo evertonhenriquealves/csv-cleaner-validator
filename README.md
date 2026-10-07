@@ -110,3 +110,11 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+
+---
+
+Note: 
+
+🇬🇧 This is a study project. The data is synthetic, created to test the validation rules.
+
+🇧🇷 Projeto de estudo. Os dados são sintéticos, criados para testar as regras de validação.
