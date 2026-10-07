@@ -1,4 +1,5 @@
 import os
+from decimal import Decimal
 import pandas as pd
 from pydantic import BaseModel, EmailStr, Field, ValidationError, field_validator
 from datetime import datetime
@@ -15,7 +16,7 @@ class TransactionModel(BaseModel):
     id: int
     nome: str
     email: EmailStr
-    valor_compra: float = Field(gt=0, description="O valor deve ser estritamente positivo")
+    valor_compra: Decimal = Field(gt=0, description="O valor deve ser estritamente positivo")
     data_transacao: str
 
     @field_validator("nome")

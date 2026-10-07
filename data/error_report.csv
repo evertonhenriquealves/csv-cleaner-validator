@@ -1,7 +1,7 @@
 id,nome,email,valor_compra,data_transacao,linha_csv,motivo_erro
 2,Carlos Souza,carlos.souza_email_invalido,200.00,2026-09-02,3,email: value is not a valid email address: An email address must have an @-sign.
-3,  ,maria.oliveira@email.com,abc,2026/09/03,4,"nome: O campo 'nome' não pode ser vazio ou conter apenas espaços. | valor_compra: Input should be a valid number, unable to parse string as a number"
+3,  ,maria.oliveira@email.com,abc,2026/09/03,4,nome: O campo 'nome' não pode ser vazio ou conter apenas espaços. | valor_compra: Input should be a valid decimal
 5,Bruna Lima,bruna.lima@email.com,-50.00,2026-09-05,6,valor_compra: Input should be greater than 0
 7,Roberto Alves,roberto@,0,2026-09-07,8,email: value is not a valid email address: There must be something after the @-sign. | valor_compra: Input should be greater than 0
-9,Lucas Mendes,lucas.mendes@email.com,,2026-09-09,10,"valor_compra: Input should be a valid number, unable to parse string as a number"
+9,Lucas Mendes,lucas.mendes@email.com,,2026-09-09,10,valor_compra: Input should be a valid decimal
 11,Tiago Ramos,tiago.ramos@email.com,320.00,31/02/2026,12,data_transacao: Data '31/02/2026' possui um formato inválido ou é uma data impossível.
