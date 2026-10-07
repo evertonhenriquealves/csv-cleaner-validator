@@ -35,7 +35,7 @@ Pandas only reads the file (every column as text, so no value is silently conver
 | `id` | Must be an integer | Non-numeric or missing |
 | `nome` | Leading and trailing spaces removed (`.strip()`); cannot be empty | Empty or only spaces |
 | `email` | Checked with Pydantic `EmailStr` (`email-validator`) | No `@`, or nothing after it |
-| `valor_compra` | Converted to `float`; must be greater than 0 | Negative, zero, text (`abc`) or empty/`NULL` |
+| `valor_compra` | Converted to `Decimal`; must be greater than 0 | Negative, zero, text (`abc`) or empty/`NULL` |
 | `data_transacao` | Accepts `YYYY-MM-DD`, `YYYY/MM/DD`, `DD-MM-YYYY`, `DD/MM/YYYY` and writes `YYYY-MM-DD` | Unknown format or a date that does not exist (e.g. `31/02/2026`) |
 
 **Assumption:** a date such as `04-09-2026` is read as day first, so it becomes `2026-09-04`.
