@@ -7,6 +7,7 @@
 🇬🇧 A Data Quality and Sanitization pipeline built in Python to ingest raw CSV files, enforce strict schema validations, clean bad formatting, and split output records into clean datasets and detailed error reports.
 
 🇧🇷 Um pipeline de Qualidade e Higienização de Dados desenvolvido em Python para ingerir arquivos CSV brutos, aplicar validações estritas de esquema, limpar formatações incorretas e separar os registros em conjuntos de dados limpos e relatórios detalhados de erros.
+
 ---
 
 ## 🏗️ Architecture & Data Flow
